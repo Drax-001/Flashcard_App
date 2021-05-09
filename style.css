@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Acme;
+    background-color: #eeeeee;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+label {
+    font-size: 25px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #057705;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outline {
+    border: 2px solid #0e7a0e;
+    border-radius: 20px;
+}
+
+.buttons {
+    width: 100px;
+    height: 40px;
+    padding-left: 4px;
+    padding-right: 4px;
+    outline: none;
+    margin: 10px;
+    transition: 500ms ease-in-out;
+}
+
+.buttons:hover {
+    background-color: #057705;
+    color: #fff;
+}
+
+.textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#inputs {
+    border-radius: 20px;
+    border: 2px solid #057705;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Itim, Arial;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 30px;
+    word-wrap: break-word;
+}
+
+.question {
+    margin-bottom: 30px;
+    color: #000;
+    padding: 4px;
+    width: 300px;
+}
+
+.answer {
+    margin-bottom: 30px;
+    color: #0008ff;
+    padding: 4px;
+    width: 300px;
+}
+
+.edit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.editBtn {
+    border: none;
+    outline: none;
+    color: #057705;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h4:focus {
+    border: 2px solid #057705;
+    border-radius: 10px;
+    outline: none;
+}
